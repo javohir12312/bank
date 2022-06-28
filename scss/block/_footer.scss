@@ -1,0 +1,137 @@
+
+.footer {
+  background-color:  #2D314D;
+  padding: 20px;
+}
+
+.footer__content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo{
+  margin-top: 48px;
+}
+
+.footer__massenger-list{
+  list-style-type: none;
+  display: flex;
+  margin-top: 40px;
+  margin-left: -40px;
+}
+
+.footer__massenger-item{
+  padding-right: 10px;
+}
+
+.footer__menu-first{
+  list-style-type: none;
+  margin-top: 40px;
+  margin-left: 250px;
+}
+
+.footer__menu-item{
+  padding: 10px;
+}
+
+.footer__item-link{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.footer__item-link:hover{
+  color: #30C88F;
+}
+
+.footer__button{
+  max-width: 160px;
+  height: 50px;
+  padding: 8px 35px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border: none;
+  border-radius: 22px;
+  margin-top: 50px;
+  transition: 0.4s ease;
+
+}
+
+.footer__button:hover {
+  color: #ffffff;
+  background: linear-gradient(200deg, rgba(34, 35, 179, 0.368627451) 0%, #2ab6d9 99.58%);
+}
+
+
+@media only screen and (max-width: 1140px) {
+  .footer {
+    background-color:  #2D314D;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer__logo{
+    margin-top: 48px;
+    margin-right: auto;
+  }
+  
+  .footer__massenger-list{
+    list-style-type: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -40px;
+  }
+  
+  .footer__massenger-item{
+    padding-right: 10px;
+  }
+  
+  .footer__menu-first{
+    list-style-type: none;
+    margin-left: 21px;
+  }
+  
+  .footer__menu-item{
+    padding: 10px;
+  }
+  
+  .footer__item-link{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+  }
+  
+  .footer__item-link:hover{
+    color: #30C88F;
+  }
+  
+  .footer__button{
+    max-width: 160px;
+    height: 50px;
+    padding: 8px 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+    border: none;
+    border-radius: 22px;
+    margin-top: 50px;
+    transition: 0.4s ease;
+  
+  }
+  
+  .footer__button:hover {
+    color: #ffffff;
+    background: linear-gradient(200deg, rgba(34, 35, 179, 0.368627451) 0%, #2ab6d9 99.58%);
+  }
+  
+}

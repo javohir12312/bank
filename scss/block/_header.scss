@@ -1,0 +1,66 @@
+.header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+
+.header__innner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 18px;  
+}
+
+.header__logo{
+  display: block;
+}
+
+
+.nav__list{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__item {
+  margin-right: 20px;
+}
+
+.nav__item--last{
+  margin: 0;
+}
+
+.nav__link{
+  text-decoration: none;
+  color: gray;
+  transition: 0.3s ease;
+}
+
+.nav__link:hover{
+  color: cyan;
+}
+
+.hedaer__hamburger{
+  display: none;
+  width: 24px;
+  height: 11px;
+}
+
+
+@media only screen and (max-width:670px) {
+  .hedaer__hamburger{
+    display: block;
+    width: 24px;
+    height: 11px;
+  }
+
+  .nav__list {
+    display: none;
+  }
+  .invite-button {
+    display: none;
+  }
+}
+  

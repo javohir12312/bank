@@ -1,0 +1,39 @@
+
+
+.latest__content-heading{
+  font-size: 40px;
+  color: #2D314D;
+}
+
+.latest-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.latest-item{
+  max-width: 260px;
+  padding-right: 20px;
+  color: #9597A5;
+  background-color: white;
+}
+
+.latest-item h2{
+  font-size: 22px;
+  line-height: 20px;
+  transition: 0.4s ease;
+}
+
+.latest-item h2:hover{
+  color: #30C88F;
+}
+
+@media only screen and (max-width:590px) {
+  .latest-item{
+    max-width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    color: #9597A5;
+  }
+}
